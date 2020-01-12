@@ -4,7 +4,8 @@
     font-weight:700;
     font-size: .9rem;
     letter-spacing: .1rem;
-    background: transparent!important
+    background: transparent!important;
+    z-index: 3;
   }
   
   .navbar-brand img{
@@ -20,9 +21,23 @@
     padding-top: .8rem;
   }
   
+  
   .navbar-dark .navbar-nav .nav-link:hover {
     background: -webkit-linear-gradient(#FE6B8B, #FF8E53);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    
   }
 
+
+  .navbar-dark .navbar-nav #blue:hover {
+    background: linear-gradient(45deg, rgba(83,100,255,1) 0%, rgba(144,141,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .navbar-dark .navbar-nav #green:hover {
+    background: linear-gradient(45deg, rgba(5,166,148,1) 0%, rgba(122,203,191,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }

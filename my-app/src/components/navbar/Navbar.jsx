@@ -1,9 +1,24 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React from 'react';
+import React, {useState} from 'react';
 import'./Navbar.scss'
+
+let activeTab = "about"
+function getActiveTab (tab) {
+
+		return activeTab;
+
+
+}
+
+function setActiveTab (tab) {
+	activeTab = tab;
+}
 
 
 export default function Navbar () {
+
+	
+
     return (
 <nav class="navbar navbar-expand-md navbar-dark fixed-top">
 	<a class="navbar-brand nav-item" href="#">Joshua Wilkinson</a>
@@ -13,21 +28,27 @@ export default function Navbar () {
 
 	<div class="collapse navbar-collapse" id="navbarResponsive">
 		<ul class="navbar-nav ml-auto">
-			<li class="nav-item">
-				<a class="nav-link" href="#about">About</a>
+			<li class="nav-item" >
+				<a class="nav-link" href="#" onclick='setActiveTab("about")'>About</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#experience">Experience</a>
+				<a class="nav-link" href="#skills">Skills</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#education">Contact</a>
+				<a class="nav-link" id='blue' href="#experience">Experience</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" id='green' href="#contact">Contact</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="https://drive.google.com/file/d/1iKhlN3r6mirEqOJ_A6Q7h-Ua9d7kCvUn/view?usp=sharing" target="_blank">Resume</a>
 			</li>
-
+{activeTab ? <li class="nav-item">
+<a class="nav-link" href="https://drive.google.com/file/d/1iKhlN3r6mirEqOJ_A6Q7h-Ua9d7kCvUn/view?usp=sharing" target="_blank">Resume</a>
+</li>: null}
 		</ul>
 	</div>
+	
 </nav>
     )
 }

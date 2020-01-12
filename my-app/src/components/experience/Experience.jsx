@@ -18,14 +18,15 @@ const theme = createMuiTheme({
         borderRadius: 3,
     
         color: 'white',
-        height: 40,
+        height: 45,
         width: 70,
         position:'relative',
         right: 70,
         
         padding: '0 30px',
-        boxShadow: '0 7px 5px 2px rgba(255, 105, 135,0.3)',
-      },
+
+        boxShadow: '0 3px 3px 2px rgba(0, 0, 0, 0.3)',
+    },
       
     },
   },
@@ -35,80 +36,126 @@ const theme = createMuiTheme({
 
 const useStyles = makeStyles(theme => ({
     root: {
-      display: 'flex',
-      flexDirection:'column',
-      justifyContent: 'flex-start',
-      alignItems: 'center',
-     position: 'relative',
-     padding:'0 20px 20px 20px',
-     
-     
-     right:30,
-        margin: theme.spacing(3),
-        minWidth: 250,
-        maxWidth: 350,
-        width:'30%',
-        minHeight: 300,
+        background: 'linear-gradient(45deg, rgba(83,100,255,1) 0%, rgba(144,141,255,1) 100%)',
+
+        color: 'white',
+      height: 45,
+      width: 120,
+      position:'relative',
+      right: 90,
+      
+      padding: '0 30px',
+      
       
     },
 
   }));
 
-export default function Landing ()  {
+export default function Skills ()  {
     const classes = useStyles();
     return (
-        <div id="experience" class="skills">
+        <div id="experience" class="section">
         <div class="title">
         
-        <ThemeProvider theme={theme}>
-        
-        <Paper  variant="elevation" elevation={0}>
-        <h1  class='offset text-shadow' >Skills</h1>
-        
-        
-        </Paper></ThemeProvider>
+            <ThemeProvider theme={theme}>
+            
+            <Paper  className={classes.root } variant="elevation" elevation={0}>
+            <h1  class='offset' >Experience</h1>
+            
+            
+            </Paper></ThemeProvider>
 
         </div>
-
-        <div class='cards'>
-        <ThemeProvider theme={theme}>
-        
-        <Paper className={classes.root } elevation={0}>
-        <h1 class='header text-shadow'>Tools</h1>
-        <div class='list'>
-
+        <div class="entry">
+            <div class="caption">
+                <h1>Full Stack Developer</h1>
+                <h3>Unyte Health Inc.</h3>
+                <p>This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.</p>
+            <div class="learn">
+                <div class="more">
+                    Learn More
+                </div>
+            </div>
+            </div>
+            <div class="card-image">
+                <div id='unyte' class='card'></div>
+                <div class="image">
+                    
+                    <div class='tools'>
+                    <div class='tool list-item'>
+                    Node
+                    </div>
+                    <div class='tool list-item'>
+                    React
+                    </div>
+                    <div class='tool list-item'>
+                    AWS
+                    </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        </Paper>
-        
-        
-        
-        </ThemeProvider>
-        <ThemeProvider theme={theme}>
-        
-        <Paper className={classes.root} elevation={0}>
-        <h1 class='header text-shadow'>Languages</h1>
-        <div class='list'>
 
-        </div>
-        </Paper>
-        
-        
-        
-        </ThemeProvider>
-        <ThemeProvider theme={theme}>
-        
-        <Paper className={classes.root} elevation={0}>
-        <h1 class='header text-shadow'>Technologies</h1>
-        <div class='list'>
+        <div class="entry">
+        <div class="card-image">
+                <div id='unyte' class='card'></div>
+                <div class="image">
+                    
+                    <div class='tools'>
+                    <div class='tool list-item'>
+                    Node
+                    </div>
+                    <div class='tool list-item'>
+                    React
+                    </div>
+                    <div class='tool list-item'>
+                    AWS
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="caption">
+                <h1>Full Stack Developer</h1>
+                <h3>Unyte Health Inc.</h3>
 
+                <p>This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.</p>
+                <div class="learn">
+                <div class="more">
+                    Learn More
+                </div>
+            </div>
+            </div>
         </div>
-        </Paper>
-        
-        
-        
-        </ThemeProvider>
+        <div class="entry">
+            <div class="caption">
+                <h1>Full Stack Developer</h1>
+                <h3>Unyte Health Inc.</h3>
+
+                <p>This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.</p>
+                <div class="learn">
+                <div class="more">
+                    Learn More
+                </div>
+            </div>
+            </div>
+            <div class="card-image">
+                <div id='unyte' class='card'></div>
+                <div class="image">
+                    
+                    <div class='tools'>
+                    <div class='tool list-item'>
+                    Node
+                    </div>
+                    <div class='tool list-item'>
+                    React
+                    </div>
+                    <div class='tool list-item'>
+                    AWS
+                    </div>
+                    </div>
+                </div>
+            </div>
         </div>
-       
         {/* <div class="text" > <h2 >Its nice to meet you</h2></div> */}
         </div>
     )
