@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/jjwilkin/static/css/main.b8fac6ea.chunk.css",
+    "main.js": "/jjwilkin/static/js/main.6202ada8.chunk.js",
+    "main.js.map": "/jjwilkin/static/js/main.6202ada8.chunk.js.map",
+    "runtime-main.js": "/jjwilkin/static/js/runtime-main.ebb2a96a.js",
+    "runtime-main.js.map": "/jjwilkin/static/js/runtime-main.ebb2a96a.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/jjwilkin/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.f51fb6c0.chunk.js": "/jjwilkin/static/js/2.f51fb6c0.chunk.js",
+    "static/js/2.f51fb6c0.chunk.js.map": "/jjwilkin/static/js/2.f51fb6c0.chunk.js.map",
+    "index.html": "/jjwilkin/index.html",
+    "precache-manifest.2f2ad5ff9b5f0cc70507b1ec49ab1ab5.js": "/jjwilkin/precache-manifest.2f2ad5ff9b5f0cc70507b1ec49ab1ab5.js",
+    "service-worker.js": "/jjwilkin/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/jjwilkin/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.b8fac6ea.chunk.css.map": "/jjwilkin/static/css/main.b8fac6ea.chunk.css.map",
+    "static/js/2.f51fb6c0.chunk.js.LICENSE": "/jjwilkin/static/js/2.f51fb6c0.chunk.js.LICENSE",
+    "static/media/logo.svg": "/jjwilkin/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ebb2a96a.js",
+    "static/css/2.17e5ed98.chunk.css",
+    "static/js/2.f51fb6c0.chunk.js",
+    "static/css/main.b8fac6ea.chunk.css",
+    "static/js/main.6202ada8.chunk.js"
+  ]
+}
