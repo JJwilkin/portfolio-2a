@@ -55,13 +55,17 @@ export default function Contact ()  {
         <div id="contact" class="section">
               <div class="title">
         
-        <ThemeProvider theme={theme}>
+        {/* <ThemeProvider theme={theme}>
         
         <Paper  className={classes.root } variant="elevation" elevation={0}>
         <h1  class='offset' >Contact</h1>
         
         
-        </Paper></ThemeProvider>
+        </Paper></ThemeProvider> */}
+         <div class='main-subtitle'>
+        <h1>Contact</h1>
+        
+        </div>
 
     </div>
     <div class='entry'>

@@ -1,15 +1,21 @@
 .title {
-    display:flex;
 height:20vh;
-    align-items: center;
-    justify-content: center;
+  
     font-size: calc(10px + 2vmin);
     color: rgb(206, 206, 206);
-
+// background:green;
 }
-
+.universal-width {
+    width: 80vw;
+    
+}
 .section {
     padding:130px 50px 50px 100px;
+}
+.justify-flex-center {
+display: flex;
+justify-content: center;
+
 }
 .offset {
     position: relative;
@@ -55,4 +61,49 @@ ul {
         font-size: 25px;
         
         font-weight: 300;
+}
+
+.main-subtitle {
+// margin: 30vh;
+width: 70vw;
+height: 20vh;
+display: flex;
+justify-content: flex-start;
+color: white;
+h1 {
+    font-size: 80px;
+}
+}
+
+.App {
+    background-color: #282c34;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-height {
+height: 80vh;
+}
+
+.skills-list {
+    // background: white;
+    height: 80vh;
+    width: 70vw;
+}
+#skills-main {
+    height: 45vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#material {
+    font-size: 30px;
+}
+#shift-left {
+    position: relative;
+    left: 15%;
 }

@@ -55,17 +55,21 @@ export default function Skills ()  {
     const classes = useStyles();
     return (
         <div id="experience" class="section">
-        <div class="title">
         
-            <ThemeProvider theme={theme}>
+        
+            {/* <ThemeProvider theme={theme}>
             
             <Paper  className={classes.root } variant="elevation" elevation={0}>
             <h1  class='offset' >Experience</h1>
             
             
-            </Paper></ThemeProvider>
-
+            </Paper></ThemeProvider> */}
+             <div class='main-subtitle'>
+        <h1>Case Studies</h1>
+        
         </div>
+
+        
         <div class="entry">
             <div class="caption">
                 <h1>Full Stack Developer</h1>
@@ -96,36 +100,6 @@ export default function Skills ()  {
             </div>
         </div>
 
-        <div class="entry">
-        <div class="card-image">
-                <div id='unyte' class='card'></div>
-                <div class="image">
-                    
-                    <div class='tools'>
-                    <div class='tool list-item'>
-                    Node
-                    </div>
-                    <div class='tool list-item'>
-                    React
-                    </div>
-                    <div class='tool list-item'>
-                    AWS
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <div class="caption">
-                <h1>Full Stack Developer</h1>
-                <h3>Unyte Health Inc.</h3>
-
-                <p>This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.</p>
-                <div class="learn">
-                <div class="more">
-                    Learn More
-                </div>
-            </div>
-            </div>
-        </div>
         <div class="entry">
             <div class="caption">
                 <h1>Full Stack Developer</h1>

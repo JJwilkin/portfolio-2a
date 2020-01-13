@@ -2,19 +2,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React, {useState} from 'react';
 import'./Navbar.scss'
 
-let activeTab = "about"
-function getActiveTab (tab) {
-
-		return activeTab;
-
-
-}
-
-function setActiveTab (tab) {
-	activeTab = tab;
-}
-
-
 export default function Navbar () {
 
 	
@@ -43,9 +30,6 @@ export default function Navbar () {
 			<li class="nav-item">
 				<a class="nav-link" href="https://drive.google.com/file/d/1iKhlN3r6mirEqOJ_A6Q7h-Ua9d7kCvUn/view?usp=sharing" target="_blank">Resume</a>
 			</li>
-{activeTab ? <li class="nav-item">
-<a class="nav-link" href="https://drive.google.com/file/d/1iKhlN3r6mirEqOJ_A6Q7h-Ua9d7kCvUn/view?usp=sharing" target="_blank">Resume</a>
-</li>: null}
 		</ul>
 	</div>
 	

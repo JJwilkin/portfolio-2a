@@ -4,11 +4,31 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: rgb(206, 206, 206);
-  
+  color: rgb(255, 255, 255);
+  padding: 20vh;
+  img {
+    width: 45%;
+  }
 }
 
+.landing-caption {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
 .text {
-    padding: 20px;
+    // padding: 20px;
+     h1 {
+      font-size: 60px;
+      font-weight: 700;
+
+     }
+     h2 {
+       font-size: 30px;
+       width: 600px;
+       font-weight: 290;
+       strong {
+         font-weight: 600;
+       }
+     }
 }
