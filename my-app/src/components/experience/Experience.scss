@@ -1,0 +1,116 @@
+.caption {
+    padding: 0 35px 0 0;
+    text-align: justify;
+    min-width: 450px;
+    max-width: 550px;
+    h1 {
+        color: white;
+        padding-bottom: 10px;
+        // text-shadow: 0px 1px 0px #b2a98f,
+        // 0px 4px 5px rgba(0, 0, 0, 0.74);
+    }
+    p {
+        font-size: 20px;
+        color: rgb(184, 184, 184);
+        max-height: 400p;
+
+    }
+    h3 {
+        color: rgb(199, 199, 199);
+        font-weight: 400;
+        padding-bottom: 10px;
+    }
+}
+.entry {    
+    display: flex;
+    justify-content: flex-start;
+    // margin: 5px 0 50px 300px;
+    margin: 10px 0 150px 0;
+    width: 70vw;
+
+    // background: white;
+  
+}
+.image {
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    height: 80px;
+    min-width: 600px;
+    max-width: 650px;
+    border-radius: 0 0 5px 5px;
+    background: linear-gradient(45deg, rgba(83,100,255,1) 0%, rgba(144,141,255,1) 100%);
+
+    padding:5px;
+
+    // box-shadow: 0px 0px 10px 3px rgb(24, 23, 23);
+}
+.card {
+    height:100%;
+    max-height: 350px;
+    max-width:650;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    background: transparent;
+    border:none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    // box-shadow: 0 3px 3px 2px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.card-image {
+    height: 450px;
+    min-width: 600px;
+    max-width: 650px;
+}
+#unyte {
+    background-image: url(https://dashboard-stage-asduytasdufyaskjdfysajdf.unyte.com/resources/images/login-backgrounds/background-13-min-full.jpg);
+
+}
+.tools {
+    padding:8px;
+    height:50%;
+    min-height: 50px;
+    width: 98%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.tool {
+    height: 35px;
+    width: 15%;
+    background: white;
+    // box-shadow: 0 3px 3px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.learn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height:140px;
+    width: 100%;
+}
+.more {
+    height: 40%;
+    width: 40%;
+    background: linear-gradient(45deg, rgba(83,100,255,1) 0%, rgba(144,141,255,1) 100%);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.45em;
+    color:white;
+}
+
