@@ -66,7 +66,7 @@ export default function Skills ()  {
           <div class='key-summary'>
                 <div class='backend'>
                 <div class='tool-card'><i class="devicon-react-original"></i>
-                    <h1>React</h1>
+                    <h1>Reacts</h1>
                 </div>
                     <div class='tool-card'><i class="devicon-nodejs-plain"></i>
                         <h1>Node</h1>
