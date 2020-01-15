@@ -10,7 +10,8 @@ height:20vh;
     
 }
 .section {
-    padding:130px 50px 50px 100px;
+    padding:130px 50px 0 8vw;
+    width: 100%;
 }
 .justify-flex-center {
 display: flex;
@@ -65,7 +66,7 @@ ul {
 
 .main-subtitle {
 // margin: 30vh;
-width: 70vw;
+// width: 70vw;
 height: 20vh;
 display: flex;
 justify-content: flex-start;
@@ -91,6 +92,7 @@ height: 80vh;
     // background: white;
     height: 80vh;
     width: 70vw;
+  
 }
 #skills-main {
     height: 45vh;
@@ -100,10 +102,16 @@ height: 80vh;
     justify-content: flex-start;
     align-items: flex-start;
 }
+
 #material {
-    font-size: 30px;
+    @media (max-width: 1250px) {
+        font-size: 20px;
+    }
+    @media (max-width: 1250px) {
+        font-size: 20px;
+    }
+    @media (max-width: 1250px) {
+        font-size: 15px;
+    }
 }
-#shift-left {
-    position: relative;
-    left: 15%;
-}
+

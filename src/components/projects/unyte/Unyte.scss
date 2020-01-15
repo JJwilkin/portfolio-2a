@@ -90,48 +90,76 @@
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    width:90vw;
     max-width: 1300px;
+    height: 100%;
 }
 .backend {
+    width: 100%;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     color: rgb(157, 182, 230);
     #bar{
         height: 150px;
-        width:5px;
+        min-width:3.26px;
         background: rgba(230, 230, 230, 0.87);
-        position: relative;
-        top:50px;
+   
+        @media (max-width:1700px) {
+            height: 120px;
+        }
     }
 }
 .frontend {
     display: flex;
+    align-items: center;
     justify-content: flex-start;
     color: rgb(193, 157, 214);
     #bar{
         height: 150px;
-        width:5px;
+        min-width:3.26px;
+        margin:0 1px 0;
         background: rgba(230, 230, 230, 0.87);
-        position: relative;
-        top:50px;
+
+        @media (max-width:1700px) {
+            height: 120px;
+        }
     }
 }
 
 .tool-card {
  
-    height: 200px;
-    width: 250px;
+    min-height: 20vh;
+    width: 240px;
+    min-width: 12.5vw;
+
     margin:20px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-   
-    font-size: 120px;
+ 
+    @media (max-width: 1700px) {
+        // width: 170px;
+    
+        margin: 10px;
+        // height: 20vh;
+        font-size: 80px;
+        
+      }
+    font-size: 110px;
     h1 {
+        @media (max-width: 1700px) {
+            font-size: 25px;
+        }
+        @media (max-width: 1250px) {
+            font-size: 20px;
+        }
+        @media (max-width: 1050px) {
+            font-size: 17px;
+        }
         font-size: 30px;
     }
 }
+
 
 .iconify {
    position: relative;

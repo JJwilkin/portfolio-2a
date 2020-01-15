@@ -37,7 +37,7 @@
 
 .profile-picture {
     margin-right: 20px;
-
+    margin-bottom: 5vh;
     height: 350px;
     width: 350px;
     border: none;
@@ -57,22 +57,39 @@
     flex-direction: column;
     justify-content: flex-start;
     color: white;
-    width:500px;
+    width:100%;
     h1 {
         text-align: left;
         font-size: 40px;
         font-weight: 700;
     }
+    h2 {
+        text-align: left;
+    }
 }   
 
 .horizontal-stack {
     display: flex;
-
+    flex-direction: row;
+    margin-bottom: 5vh;
 }
 #side-bar {
-    width: 10px;
+    width: 3px;
     height: 89px;
     background: white;
     margin: 5px 10px 5px 0;
 }
 
+
+#center {
+    display: flex;
+    align-items: center;
+  height: 15vh;
+}
+
+.stack-on-top {
+    @media (max-width: 900px) {
+        display: flex;
+       flex-direction: column;
+    }
+}

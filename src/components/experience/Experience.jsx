@@ -83,7 +83,7 @@ export default function Skills ()  {
             </div>
             <div class="card-image">
                 <div id='unyte' class='card'></div>
-                <div class="image">
+                {/* <div class="image">
                     
                     <div class='tools'>
                     <div class='tool list-item'>
@@ -96,7 +96,7 @@ export default function Skills ()  {
                     AWS
                     </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
 
@@ -114,7 +114,7 @@ export default function Skills ()  {
             </div>
             <div class="card-image">
                 <div id='unyte' class='card'></div>
-                <div class="image">
+                {/* <div class="image">
                     
                     <div class='tools'>
                     <div class='tool list-item'>
@@ -127,7 +127,7 @@ export default function Skills ()  {
                     AWS
                     </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
         {/* <div class="text" > <h2 >Its nice to meet you</h2></div> */}

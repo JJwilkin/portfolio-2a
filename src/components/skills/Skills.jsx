@@ -71,16 +71,19 @@ export default function Skills ()  {
                     <div class='tool-card'><i class="devicon-nodejs-plain"></i>
                         <h1>Node</h1>
                     </div>
-                    <div class='tool-card'><i class="devicon-cplusplus-plain"></i>
-                        <h1>C++</h1>
-                    </div>
+                
                     
-                    <div class='tool-card'><i class="devicon-python-plain"></i>
-                        <h1>Python</h1>
-                    </div>
+            
                     <div class='tool-card'><i class="devicon-javascript-plain"></i>
                         <h1>Javascript</h1>
                     </div>
+                    <div class='tool-card'><i class="devicon-cplusplus-plain"></i>
+                        <h1>C++</h1>
+                    </div>
+                    <div class='tool-card'><i class="devicon-python-plain"></i>
+                        <h1>Python</h1>
+                    </div>
+                    
 
 
                     <div id='bar'></div>
@@ -89,13 +92,13 @@ export default function Skills ()  {
                         <h1>Languages</h1>
                     </div>
                 </div>
-                <div class='frontend'> <div class='tool-card'><span id='shift-left' class="iconify" data-icon="simple-icons:graphql" data-inline="false"></span>
+                <div class='frontend'> <div class='tool-card'><i class="cib-graphql"></i>
                         <h1 >Graphql</h1>
                     </div>
                 <div id='aws' class='tool-card'><i class="devicon-amazonwebservices-plain-wordmark"></i>
                         <h1>AWS</h1>
                     </div>
-                    <div class='tool-card'><span id='shift-left'class="iconify" data-icon="mdi:material-ui" data-inline="false"></span>
+                    <div class='tool-card'><i class="cib-material-design"></i>
                         <h1 id='material'>Material UI</h1>
                     </div>
                     <div class='tool-card'><i class="devicon-postgresql-plain"></i>

@@ -16,10 +16,14 @@ function App() {
     <div className="App">
 		<Navbar/>
     {showUnyte && <Unyte/>}
-    {!showUnyte && <><Landing />
+    {!showUnyte && <> 
+    
+    <Landing />
 			<Skills/>
       <Experience />
-      <Contact/> </>}
+      <Contact/> 
+      
+      </>}
       
     </div>
   );
