@@ -3,7 +3,7 @@ import styles from './Experience.scss';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
-import Button from '@material-ui/core/Button';
+import { Button } from 'reactstrap';
 import { style } from '@material-ui/system';
 import { StylesContext } from '@material-ui/styles';
 
@@ -66,7 +66,7 @@ export default function Skills ()  {
             </Paper></ThemeProvider> */}
              <div class='main-subtitle'>
         <h1>Case Studies</h1>
-        
+        <Button />
         </div>
 
         

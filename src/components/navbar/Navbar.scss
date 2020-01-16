@@ -4,10 +4,10 @@
     font-weight:700;
     font-size: .9rem;
     letter-spacing: .1rem;
-    background: transparent!important;
+    background: rgb(40,44,52);
     z-index: 3;
   }
-  
+
   .navbar-brand img{
     height:2rem;
   }
@@ -21,7 +21,7 @@
     padding-top: .8rem;
   }
   
-  
+
   .navbar-dark .navbar-nav .nav-link:hover {
     background: -webkit-linear-gradient(#FE6B8B, #FF8E53);
     -webkit-background-clip: text;
