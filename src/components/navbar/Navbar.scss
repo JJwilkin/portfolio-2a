@@ -31,13 +31,25 @@
 
 
   .navbar-dark .navbar-nav #blue:hover {
-    background: linear-gradient(45deg, rgba(83,100,255,1) 0%, rgba(144,141,255,1) 100%);
+    background: linear-gradient(45deg, rgb(92, 108, 255) 0%, rgba(144,141,255,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
   .navbar-dark .navbar-nav #green:hover {
     background: linear-gradient(45deg, rgba(5,166,148,1) 0%, rgba(122,203,191,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .navbar-dark .navbar-nav #resume:hover {
+    background: -webkit-linear-gradient(rgb(254, 190, 107), rgb(255, 215, 83));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .navbar-dark .navbar-nav #about:hover {
+    background: -webkit-linear-gradient(rgb(254, 190, 107), rgb(255, 223, 83));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }

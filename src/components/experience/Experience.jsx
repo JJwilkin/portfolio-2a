@@ -3,9 +3,9 @@ import styles from './Experience.scss';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
-import { Button } from 'reactstrap';
 import { style } from '@material-ui/system';
 import { StylesContext } from '@material-ui/styles';
+import { Link } from 'react-router-dom';
 
 const theme = createMuiTheme({
   overrides: {
@@ -66,7 +66,6 @@ export default function Skills ()  {
             </Paper></ThemeProvider> */}
              <div class='main-subtitle'>
         <h1>Case Studies</h1>
-        <Button />
         </div>
 
         
@@ -76,13 +75,17 @@ export default function Skills ()  {
                 <h3>Unyte Health Inc.</h3>
                 <p>This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.</p>
             <div class="learn">
-                <div class="more">
-                    Learn More
-                </div>
+                <Link style={{ textDecoration: 'none'}} to='/unyte'>
+                <button class="more">
+                Learn More
+                </button>
+                </Link>
             </div>
             </div>
             <div class="card-image">
+            <Link style={{ textDecoration: 'none'}} to='/unyte'>
                 <div id='unyte' class='card'></div>
+                </Link>
                 {/* <div class="image">
                     
                     <div class='tools'>
@@ -107,9 +110,11 @@ export default function Skills ()  {
 
                 <p>This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.</p>
                 <div class="learn">
-                <div class="more">
-                    Learn More
-                </div>
+                <Link style={{ textDecoration: 'none'}} to='/unyte'>
+                <button class="more">
+                Learn More
+                </button>
+                </Link>
             </div>
             </div>
             <div class="card-image">

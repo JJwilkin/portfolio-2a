@@ -1,6 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React, {useState} from 'react';
+import React from 'react';
 import'./Navbar.scss'
+import { Link } from 'react-router-dom';
+
 
 export default function Navbar () {
 
@@ -16,19 +18,29 @@ export default function Navbar () {
 	<div class="collapse navbar-collapse" id="navbarResponsive">
 		<ul class="navbar-nav ml-auto">
 			<li class="nav-item" >
-				<a class="nav-link" href="#" onclick='setActiveTab("about")'>About</a>
+				<Link to={'/'}>
+				<a id='about' class="nav-link" href="#" onclick='setActiveTab("about")'>About</a>
+				</Link>
 			</li>
 			<li class="nav-item">
+			<Link to={'/skills'}>
 				<a class="nav-link" href="#skills">Skills</a>
+				</Link>
 			</li>
 			<li class="nav-item">
+				<Link to={'/experience'}>
 				<a class="nav-link" id='blue' href="#experience">Experience</a>
+				</Link>
 			</li>
 			<li class="nav-item">
+			<Link to={'/contact'}>
 				<a class="nav-link" id='green' href="#contact">Contact</a>
+				</Link>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="https://drive.google.com/file/d/1iKhlN3r6mirEqOJ_A6Q7h-Ua9d7kCvUn/view?usp=sharing" target="_blank">Resume</a>
+			
+				<a id='resume' class="nav-link" href="https://drive.google.com/file/d/1iKhlN3r6mirEqOJ_A6Q7h-Ua9d7kCvUn/view?usp=sharing" target="_blank">Resume</a>
+				
 			</li>
 		</ul>
 	</div>

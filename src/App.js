@@ -1,29 +1,38 @@
-import React, { useState } from 'react';
+import React, { Component, useRef, useEffect } from 'react';
 import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/navbar/Navbar'
-import Landing from './components/landing/Landing'
-import Skills from './components/skills/Skills'
-import Experience from './components/experience/Experience'
-import Contact from './components/contact/Contact'
+
 import Unyte from './components/projects/unyte/Unyte'
+import HomePage  from './views/HomePage'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 
-function App() {
+// const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop)   
+// const useMountEffect = (fun) => useEffect(fun, [])
 
-  const [showUnyte, setShowUnyte] = useState(false);
+function App() {
+	// const myRef = useRef(null)
+
+	// useMountEffect(() => scrollToRef(myRef)) // Scroll on mount
   return (
     <div className="App">
+    <Router>
 		<Navbar/>
-    {showUnyte && <Unyte/>}
-    {!showUnyte && <> 
     
-    <Landing />
-			<Skills/>
-      <Experience />
-      <Contact/> 
+      <Switch> 
+            <Route  exact  path="/" component={HomePage} />
+            <Route  exact  path="/skills" component={HomePage} />
+            <Route  exact  path="/experience" component={HomePage} />
+            <Route  exact  path="/contact" component={HomePage} />
+            <Route path="/unyte" component={Unyte} /> 
+        </Switch>
+    </Router>
+          
+
+
       
-      </>}
+      
       
     </div>
   );
