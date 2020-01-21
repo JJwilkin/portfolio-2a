@@ -4,7 +4,7 @@ import React, {useState} from 'react';
 export default function Serverless() {
 return (       
      <>            
-     <div class='description bottom-margin'>
+     <div class='description bottom-margin-sm'>
                 <div id='bar'></div>
                 <div id='text'>Improved search load times by 30% using Elasticsearch to perform database queries. Due to the amount of information securities contain, a simple search query that accepts name, symbol, and corporation can often be cumbersome for more traditional query methods. This was solved by using Elasticsearch as it allowed for large packages of information containing several layers of filters to be returned.  </div>
             </div>

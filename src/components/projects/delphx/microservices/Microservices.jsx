@@ -4,7 +4,7 @@ import React, {useState} from 'react';
 export default function Serverless() {
 return (       
      <>            
-     <div class='description bottom-margin'>
+     <div class='description bottom-margin-sm'>
                 <div id='bar'></div>
                 <div id='text'>Deployed and maintained Kubernetes containers in Docker to ensure optimal uptime of micro-services. Event logs were managed via Kafka and required fast, analytical problem solving to diagnose errors live in the event of downtime due to a failed service. I gained experience with DevOps and the software development lifecycle. </div>
             </div>

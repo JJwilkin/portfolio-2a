@@ -75,7 +75,7 @@ export default function Unyte() {
 
             <div class='padding-top subtitle'><h1>Notable Tasks</h1></div>
 
-            <div class='padding-top  full-width flex-align-center'>
+            <div class='padding-top  full-width flex-align-center bottom-margin-30'>
             <h2 onClick={() =>setActiveTab('microservices')} className={activeTab =='microservices' ? "active" : "inactive"}> Maintain Microservices</h2>
                 <h2 onClick={() =>setActiveTab('automation')} className={activeTab =='automation' ? "active" : "inactive"}>Python Testing</h2> 
              

@@ -4,7 +4,7 @@ import React, {useState} from 'react';
 export default function Serverless() {
 return (       
      <>            
-     <div class='description bottom-margin'>
+     <div class='description bottom-margin-sm'>
                 <div id='bar'></div>
                 <div id='text'>With numerous microservices, it was imperative to both write unit and integration tests to ensure timely diagnosis in the event one of them goes down. Due to the nature of the platform, down time can result in frustrated users and prevent bonds from being traded. Automation tests were written using Python and Nose allowing for reliable and maintenable microservices. </div>
             </div>
