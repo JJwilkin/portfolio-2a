@@ -52,7 +52,7 @@ import { StylesContext } from '@material-ui/styles';
 export default function Contact ()  {
     return (
         <div id="contact" class="section">
-              <div id='center' class="title">
+              <div id='center' class="title bottom-margin-30">
         
         {/* <ThemeProvider theme={theme}>
         
@@ -61,7 +61,7 @@ export default function Contact ()  {
         
         
         </Paper></ThemeProvider> */}
-         <div id='center' class='main-subtitle'>
+         <div id='center' class='main-subtitle '>
         <h1>Contact</h1>
         
         </div>
@@ -75,7 +75,7 @@ export default function Contact ()  {
 
       <div class='horizontal-stack'>
         <div id='side-bar'></div>
-          <div class='stack-section'>
+          <div class='stack-section left-stack'>
           <div><h2>Interested in working together? </h2></div>
           <div><h2>Let's Chat.</h2></div>
           </div>

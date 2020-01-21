@@ -58,10 +58,11 @@ export default function Skills ()  {
     // const classes = useStyles();
     return (
         <div id="skills" class=" section add-height">
-        <div id='skills-main'>
-          <div class='main-subtitle'>
+         <div class='main-subtitle'>
             <h1>Skills</h1>
           </div>
+        <div id='skills-main'>
+         
           <div class='skills-list'>
           <div class='key-summary'>
                 <div class='backend'>

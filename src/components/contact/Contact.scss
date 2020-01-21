@@ -55,9 +55,9 @@
 .stack-section {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
     color: white;
-    width:100%;
     h1 {
         text-align: left;
         font-size: 40px;
@@ -68,9 +68,18 @@
     }
 }   
 
+.left-stack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
 .horizontal-stack {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     margin-bottom: 5vh;
 }
 #side-bar {
@@ -83,6 +92,7 @@
 
 #center {
     display: flex;
+    justify-content: center;
     align-items: center;
   height: 15vh;
 }
