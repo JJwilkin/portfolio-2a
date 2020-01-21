@@ -4,34 +4,34 @@ import React, {useState} from 'react';
 export default function Serverless() {
 return (       
      <>            
-     <div class='description'>
+     <div class='description bottom-margin-sm'>
                 <div id='bar'></div>
-                <div id='text'>As part of designing and developing the user experience, I was tasked with creating the Forgot Password Sequence. This included business logic, API development, and front-end integration. With our user lists stored on AWS Cognito User Pools, I used AWS Simple Email Service (SES) to send personalized recovery emails and called the Cognito API to securely reset users passwords. </div>
+                <div id='text'>The prior shipping and logistics process involved a lot of manual communication between the shipment team and customer support. This created a bottle-kneck on scalability and increased the possibility of missed shipments due to miscommunication. The shipping notification automation reduced processing time by 20% as well as greatly reduced the potential for human error.  </div>
             </div>
 
             <div class='padding-top white-text full-width flex-align-center'>
                 <h2>Project Breakdown</h2>
             </div>
-            <div class='roles'>
-                <div class='tool-card'><span class="iconify" data-icon="logos:material-ui" data-inline="false"></span>
-                    <h1 id="material">Design and build UI components.</h1>
+            <div class='roles bottom-margin-sm'>
+                <div class='tool-card'><span  class="iconify" data-icon="logos:webhooks" data-inline="false"></span>
+                    <h1 id='webhook'>Webhook Triggered Shipping Notification</h1>
                 </div>
-                <div class='tool-card'><span class="iconify" data-icon="logos:aws-ses" data-inline="false"></span>
-                    <h1 id="ses">Utilize AWS SES to send recovery emails. </h1>
+                <div class='tool-card'><span class="iconify" data-icon="logos:slack-icon" data-inline="false"></span>
+                    <h1 id="slack">Sent Notification to Shipping Slack Channel </h1>
                 </div>
-                <div class='tool-card'><span class="iconify" data-icon="logos:aws-cognito" data-inline="false"></span>
-                    <h1 id="cognito">Call AWS Cognito API to reset password.</h1>
+                <div class='tool-card'><span class="iconify" data-icon="logos:postgresql" data-inline="false"></span>
+                    <h1 id="postgres">Stored order payload in Postgres database.</h1>
                 </div>
             </div>
             <div class='two-column-entry full-width'>
                 <div class='full-height left-text'>
-                    <p>Users the enter Forgot Password Sequence via the log-in page. After clicking "Forgot Password" users are redirected through a seamless and intuitive funnel beginning with the "Enter Email" page. Descriptive feedback is presented to the users with Material UI toast notifications indicating whether a email was sent or not. Upon entering a valid email address, the submission triggers a personalized email containing a reset link via AWS SES. </p>
+                    <p>I created a webhook to be triggered upon order and training completion sending a POST request to our API containing the order information. This data was then parsed, stored in the database, and a shipping notification was sent via Slack to the shipment team notifying them to ship the order.  </p>
                 </div>
                 <div class='full-height right-image'>
-                    <img src='./img/forgot-password-1.png' alt='forgot-password first page'></img>
+                    <img src='http://www.cloudways.com/blog/wp-content/uploads/Rest-API-introduction.jpg' alt='forgot-password first page'></img>
                 </div>
             </div>
-
+{/* 
             <div class='two-column-entry full-width'>
                 <div class='full-height left-text'>
                     <p>Upon clicking the customized link, users are redirected to a "Reset Password" page which reads a custom reset token located in the URL payload. The reset token is generated automatically by AWS Cognito and is passed in the API call to authorize the reset attempt. Users receive feedback on their reset password attempt via form based error messaging, showing the specific field which caused the new password to be rejected. This is convenient as it shows users more detailed information about what needs to be changed for the new password. Upon successful reset, users are redirected to the sign-in page and complete the sequence.</p>
@@ -55,7 +55,7 @@ return (
                         Your browser does not support HTML5 video.
                     </video>
                 </div>
-            </div> 
+            </div>  */}
         
 </>)
 }

@@ -1,0 +1,36 @@
+.bottom-margin {
+    margin-bottom: 10vh;
+}
+
+#delphx-title {
+    color: rgb(250, 250, 250);
+    margin:50px 0 20px 0;
+    max-width: 1300px;
+    width: 90vw;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    justify-self: flex-start;
+  
+    h1 {
+        font-size:6.5em;
+      }
+    h2 {
+      position: relative;
+      font-size:2.5em;
+      padding-left: 20px;
+      top:20px;
+    }
+  }
+.delphx-picture {
+    margin-top:10vh;
+    height:38vw;
+    
+    width:83vw;
+    max-width: 1300px;
+    background: rgb(121, 121, 121);
+    background-image: url('/img/delphx1.png');
+    background-size: cover;
+    z-index: 0;
+}

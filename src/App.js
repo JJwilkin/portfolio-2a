@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/navbar/Navbar'
 
 import Unyte from './components/projects/unyte/Unyte'
+import DelphX from './components/projects/delphx/DelphX'
 import HomePage  from './views/HomePage'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
@@ -26,6 +27,7 @@ function App() {
             <Route  exact  path="/experience" component={HomePage} />
             <Route  exact  path="/contact" component={HomePage} />
             <Route path="/unyte" component={Unyte} /> 
+            <Route path="/delphx" component={DelphX} /> 
         </Switch>
     </Router>
           

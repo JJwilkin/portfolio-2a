@@ -21,17 +21,20 @@ export default function Unyte() {
                 <h1>Full Stack Developer</h1>
                 <h2> Unyte Health Inc </h2>
             </div>
-            <div class='subtitle'>
+            <div class='subtitle bottom-margin-30'>
                 <h1 >Summary of Experience</h1>
             </div>
-            <div class='description'>
+            <div class='description bottom-margin-sm'>
                 <div id='bar'></div>
-                <div id='text'>Worked in a small startup that developed a web dashboard for therapists and their clients to monitor progress and statistics. </div>
+                <div id='text'>Worked with a small team to develop a React/Redux web dashboard
+for therapist to manage clients and track progress. Developed a new GraphQL API in Node hosted on AWS/Serverless
+used to manage client data and optimize performance. Used Sequelize models for schema design on a Postgres database
+enabling organized and semantic architecture. Automated product shipping using Webhook triggered notifications.</div>
             </div>
             <div class='subtitle'>
                 <h1 >Tech Stack</h1>
             </div>
-            <div class='key-summary'>
+            <div class='key-summary bottom-margin-sm'>
                 <div class='backend'>
                     <div id='aws' class='tool-card'><i class="devicon-amazonwebservices-plain-wordmark"></i>
                         <h1>AWS</h1>
@@ -76,12 +79,12 @@ export default function Unyte() {
 
             </div>
             <div class='subtitle'><h1>Role Breakdown</h1></div>
-            <div class='roles'>
+            <div class='roles bottom-margin-sm'>
                 <div class='tool-card'><span class="iconify" data-icon="mdi:numeric-1-circle-outline" data-inline="false"></span>
-                    <h1>Build a Serverless API</h1>
+                    <h1>Build a Serverless GraphQL API</h1>
                 </div>
                 <div class='tool-card'><span class=" iconify" data-icon="mdi:numeric-2-circle-outline" data-inline="false"></span>
-                    <h1>Develop Front-end UI </h1>
+                    <h1>Develop a React Web Dashboard </h1>
                 </div>
                 <div class='tool-card'><span class=" iconify" data-icon="mdi:numeric-3-circle-outline" data-inline="false"></span>
                     <h1>Automate Shipping Process </h1>
@@ -92,10 +95,10 @@ export default function Unyte() {
 
             <div class='padding-top subtitle'><h1>Notable Projects</h1></div>
 
-            <div class='padding-top  full-width flex-align-center'>
+            <div class='padding-top  full-width flex-align-center bottom-margin-30'>
                 
                 <h2 onClick={() =>setActiveTab('password')} className={activeTab =='password' ? "active" : "inactive"}>Forgot Password Sequence</h2> 
-                <h2 onClick={() =>setActiveTab('serverless')} className={activeTab =='serverless' ? "active" : "inactive"}>Serverless API</h2>
+                <h2 onClick={() =>setActiveTab('serverless')} className={activeTab =='serverless' ? "active" : "inactive"}> GraphQL API</h2>
                 <h2 onClick={() =>setActiveTab('automate')} className={activeTab =='automate' ? "active" : "inactive"}>Automate Order Logistics</h2>
                 
                 

@@ -4,7 +4,7 @@ export default function Password() {
 
     return (<>
              
-     <div class='description'>
+     <div class='description bottom-margin-sm'>
                 <div id='bar'></div>
                 <div id='text'>As part of designing and developing the user experience, I was tasked with creating the Forgot Password Sequence. This included business logic, API development, and front-end integration. With our user lists stored on AWS Cognito User Pools, I used AWS Simple Email Service (SES) to send personalized recovery emails and called the Cognito API to securely reset users passwords. </div>
             </div>
@@ -12,17 +12,19 @@ export default function Password() {
             <div class='padding-top white-text full-width flex-align-center'>
                 <h2>Project Breakdown</h2>
             </div>
-            <div class='roles'>
+            <div class='roles bottom-margin-sm'>
                 <div class='tool-card'><span class="iconify" data-icon="logos:material-ui" data-inline="false"></span>
-                    <h1 id="material">Design and build UI components.</h1>
+                    <h1 id="material">Design and build UI components</h1>
                 </div>
                 <div class='tool-card'><span class="iconify" data-icon="logos:aws-ses" data-inline="false"></span>
-                    <h1 id="ses">Utilize AWS SES to send recovery emails. </h1>
+                    <h1 id="ses">Utilize AWS SES to send recovery emails </h1>
                 </div>
                 <div class='tool-card'><span class="iconify" data-icon="logos:aws-cognito" data-inline="false"></span>
-                    <h1 id="cognito">Call AWS Cognito API to reset password.</h1>
+                    <h1 id="cognito">Call AWS Cognito API to reset password</h1>
                 </div>
             </div>
+
+
             <div class='two-column-entry full-width'>
                 <div class='full-height left-text'>
                     <p>Users the enter Forgot Password Sequence via the log-in page. After clicking "Forgot Password" users are redirected through a seamless and intuitive funnel beginning with the "Enter Email" page. Descriptive feedback is presented to the users with Material UI toast notifications indicating whether a email was sent or not. Upon entering a valid email address, the submission triggers a personalized email containing a reset link via AWS SES. </p>
@@ -47,11 +49,11 @@ export default function Password() {
             <div class='padding-top white-text full-width flex-align-center'>
                 <h2>Demo</h2>
             </div>
-            <div class='two-column-entry full-width'>
+            <div id='no-height' class='two-column-entry full-width bottom-margin-30'>
 
-                <div id='full' class='full-height right-image'>
-                    <video width="100%" controls>
-                        <source src=".//img/video1.mov" type="video/mp4"></source>
+                <div id='full' class='full-height right-image '>
+                    <video class='bottom-margin-30'width="100%" controls>
+                        <source src="/img/video1.mp4" type="video/mp4"></source>
                         Your browser does not support HTML5 video.
                     </video>
                 </div>

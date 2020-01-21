@@ -10,7 +10,9 @@ export default function Navbar () {
 
     return (
 <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+	<Link to={'/'}>
 	<a class="navbar-brand nav-item" href="#">Joshua Wilkinson</a>
+	</Link>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 		<span class="navbar-toggler-icon"></span> 
 	</button>
@@ -39,7 +41,7 @@ export default function Navbar () {
 			</li>
 			<li class="nav-item">
 			
-				<a id='resume' class="nav-link" href="https://drive.google.com/file/d/1iKhlN3r6mirEqOJ_A6Q7h-Ua9d7kCvUn/view?usp=sharing" target="_blank">Resume</a>
+				<a id='resume' class="nav-link" href="https://drive.google.com/file/d/1f5lPJTaMpOi9Q6nCVNVuqTgdO-L5jYsB/view?usp=sharing" target="_blank">Resume</a>
 				
 			</li>
 		</ul>

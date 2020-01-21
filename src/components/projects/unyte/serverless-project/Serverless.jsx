@@ -4,7 +4,7 @@ export default function Serverless() {
 
     return (<>
           
-          <div class='description'>
+          <div class='description bottom-margin-sm'>
                 <div id='bar'></div>
                 <div id='text'>Being a small startup, the overhead costs and maintenance required to buy and run a server made serverless architechture the only feasible solution. In order to retrieve and store data for the web dashboard a fast, low maintenance, and iterable API had to be developed. The Node based API was created using cutting edge tech like Graphql to optimize performance and was hosted on AWS for reliabilitys and scaling.     </div>
             </div>
@@ -12,38 +12,38 @@ export default function Serverless() {
             <div class='padding-top white-text full-width flex-align-center'>
                 <h2>Project Breakdown</h2>
             </div>
-            <div class='roles'>
-                <div class='tool-card'><span class="iconify" data-icon="simple-icons:node-dot-js" data-inline="false"></span>
-                    <h1 id="material">Design and build UI components.</h1>
+            <div class='roles bottom-margin-sm'>
+                <div class='tool-card'><span id="node"class="iconify" data-icon="simple-icons:node-dot-js" data-inline="false"></span>
+                    <h1 id="node">Developed new API in Node</h1>
                 </div>
-                <div class='tool-card'><span class="iconify" data-icon="cib:graphql" data-inline="false"></span>
-                    <h1 id="ses">Utilize AWS SES to send recovery emails. </h1>
+                <div class='tool-card'><span id="graphql" class="iconify" data-icon="cib:graphql" data-inline="false"></span>
+                    <h1 id="graphql">Used GraphQL for efficient, highly customizeable queries</h1>
                 </div>
                 <div class='tool-card'><span class="iconify" data-icon="logos:serverless" data-inline="false"></span>
-                    <h1 id="cognito">Call AWS Cognito API to reset password.</h1>
+                    <h1 id="serverless">Hosted API on AWS/Serverless Framework</h1>
                 </div>
             </div>
             <div class='two-column-entry full-width'>
                 <div class='full-height left-text'>
-                    <p>Users the enter Forgot Password Sequence via the log-in page. After clicking "Forgot Password" users are redirected through a seamless and intuitive funnel beginning with the "Enter Email" page. Descriptive feedback is presented to the users with Material UI toast notifications indicating whether a email was sent or not. Upon entering a valid email address, the submission triggers a personalized email containing a reset link via AWS SES. </p>
+                    <p>The API was designed with performance and scalability in mind. Occupational therapists previously had to log and manage data manually creating the need for a web platform where content management was automated. Due to the large amounts of data many therapists would deal with, GraphQL was choosen to enable highly customizeable queries and mutations to our Postgres database allowing optimal API performance. During my term, I worked extensively on developing GraphQL queries and mutations as new data structures were added to our Schema and business logic.  </p>
                 </div>
                 <div class='full-height right-image'>
-                    <img src='./img/forgot-password-1.png' alt='forgot-password first page'></img>
+                    <img src='https://miro.medium.com/max/1100/1*G5SHJcfMXtofKwJmQmlB2A.jpeg' alt='forgot-password first page'></img>
                 </div>
             </div>
 
             <div class='two-column-entry full-width'>
                 <div class='full-height left-text'>
-                    <p>Upon clicking the customized link, users are redirected to a "Reset Password" page which reads a custom reset token located in the URL payload. The reset token is generated automatically by AWS Cognito and is passed in the API call to authorize the reset attempt. Users receive feedback on their reset password attempt via form based error messaging, showing the specific field which caused the new password to be rejected. This is convenient as it shows users more detailed information about what needs to be changed for the new password. Upon successful reset, users are redirected to the sign-in page and complete the sequence.</p>
+                    <p>The API was also designed to be highly scalable and reliable to meet the needs of a fast growing startup. For this, AWS coupled with the Serverless framework allowed for the team to focus on the API development and less on server maintenance. I worked with various AWS services such as: Cognito, for user authentication ; API gateway and Lambda, to handle dynamic API calls; RDS, to host our PostgresQL database.   </p>
                 </div>
                 <div class='full-height right-image'>
-                    <img src='./img/forgot-password-2.png' alt='forgot-password first page'></img>
+                    <img src='https://miro.medium.com/max/682/0*U45w6iFDevZ53HCn' alt='forgot-password first page'></img>
                 </div>
             </div>
             
             
 
-
+{/* 
             <div class='padding-top white-text full-width flex-align-center'>
                 <h2>Demo</h2>
             </div>
@@ -55,7 +55,7 @@ export default function Serverless() {
                         Your browser does not support HTML5 video.
                     </video>
                 </div>
-            </div> 
+            </div>  */}
         
         </> 
         

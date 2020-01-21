@@ -72,8 +72,8 @@ export default function Skills ()  {
         <div class="entry">
             <div class="caption">
                 <h1>Full Stack Developer</h1>
-                <h3>Unyte Health Inc.</h3>
-                <p>This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.</p>
+                <h3>Unyte Health Inc</h3>
+                <p>Worked with a small team to develop a React/Redux web dashboard for therapists to manage clients and track progress. Developed a new GraphQL API in Node hosted on AWS/Serverless used to manage client data and optimize performance. Used Sequelize models for schema design on a Postgres database enabling organized and semantic architecture. Automated product shipping using Webhook triggered notifications.</p>
             <div class="learn">
                 <Link style={{ textDecoration: 'none'}} to='/unyte'>
                 <button class="more">
@@ -105,12 +105,12 @@ export default function Skills ()  {
 
         <div class="entry">
             <div class="caption">
-                <h1>Full Stack Developer</h1>
-                <h3>Unyte Health Inc.</h3>
+                <h1>QA Developer</h1>
+                <h3>DelphX Inc</h3>
 
-                <p>This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.This is a short description about what is is like working at Unyte.</p>
+                <p>Wrote integration and unit tests for Python micro-services with Nose to ensure the web-based bond-trading platform functioned efficiently. Deployed and maintained Kubernetes containers in Docker to ensure optimal uptime of microservices. Improved search load times by 30% using Elasticsearch to perform  database queries.</p>
                 <div class="learn">
-                <Link style={{ textDecoration: 'none'}} to='/unyte'>
+                <Link style={{ textDecoration: 'none'}} to='/delphx'>
                 <button class="more">
                 Learn More
                 </button>
@@ -118,7 +118,9 @@ export default function Skills ()  {
             </div>
             </div>
             <div class="card-image">
-                <div id='unyte' class='card'></div>
+            <Link style={{ textDecoration: 'none'}} to='/delphx'>
+                <div id='delphx-img' class='card'></div>
+                </Link>
                 {/* <div class="image">
                     
                     <div class='tools'>

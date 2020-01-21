@@ -30,12 +30,13 @@
 
 .header-picture {
     margin-top:10vh;
-    height:55vh;
+    height:40vw;
     
-    width:90vw;
+    width:73vw;
+    max-height: 880px;
     max-width: 1300px;
     background: rgb(121, 121, 121);
-    background-image: url(https://dashboard-stage-asduytasdufyaskjdfysajdf.unyte.com/resources/images/login-backgrounds/background-13-min-full.jpg);
+    background-image: url('https://i.ytimg.com/vi/7DS9vItpNVc/maxresdefault.jpg');
     background-size: cover;
     z-index: 0;
 }
@@ -187,7 +188,7 @@
         width: 500px;
         margin:20px;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         flex-direction: column;
        
         font-size: 120px;
@@ -202,7 +203,30 @@
         #material {
             color: rgb(0,166, 253);
         }
+        #node {
+            color:rgb(114,177,96);
+        }
+
+        #graphql {
+            color:rgb(226,54,164);
+        }
+
+        #serverless {
+            color: rgb(245, 89, 83);
+        }
+
+        #webhook {
+            color: rgb(202, 58 , 98);
+
+        }
         
+        #slack {
+            color: white;
+        }
+
+        #postgres{
+            color: rgb(48, 103, 144);
+        }
     }
     .iconify {
         position: relative;
@@ -232,7 +256,8 @@ justify-content: center;
 
 .left-text {
 margin: 10px;
-width: 40%;
+margin-right:50px;
+width: 70%;
 text-align: left;
 color:rgb(206, 206, 206);
 font-size: 1.3em;
@@ -265,4 +290,15 @@ img{
     text-align: left;
     margin-right: 45px;
     user-select: none;
+}
+
+.bottom-margin-30 {
+    margin-bottom: 30px;
+}
+.bottom-margin-sm {
+    margin-bottom: 13vh;
+}
+
+#no-height {
+    height: auto;
 }
