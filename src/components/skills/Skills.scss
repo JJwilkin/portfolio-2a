@@ -97,7 +97,10 @@ height: 80vh;
 }
 #skills-main {
     height: 45vh;
-
+    @media(max-width: 900px) {
+        height: auto;
+        align-items: center;
+    }
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

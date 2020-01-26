@@ -36,7 +36,7 @@ enabling organized and semantic architecture. Automated product shipping using W
             </div>
             <div class='key-summary bottom-margin-sm'>
                 <div class='backend'>
-                    <div id='aws' class='tool-card'><i class="devicon-amazonwebservices-plain-wordmark"></i>
+                    <div id='aws' class='tool-card '><i class=" devicon-amazonwebservices-plain-wordmark"></i>
                         <h1>AWS</h1>
                     </div>
                     <div class='tool-card'><span class="iconify" data-icon="simple-icons:graphql" data-inline="false"></span>

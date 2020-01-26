@@ -57,7 +57,7 @@ import { StylesContext } from '@material-ui/styles';
 export default function Skills ()  {
     // const classes = useStyles();
     return (
-        <div id="skills" class=" section add-height">
+        <div id="skills" class=" section ">
          <div class='main-subtitle'>
             <h1>Skills</h1>
           </div>

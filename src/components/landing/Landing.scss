@@ -9,9 +9,15 @@
 padding-left: 5.5vw;
   img {
     width: 45%;
+    @media (max-width: 900px) {
+      width: 100%;
+    }
   }
   @media (min-height: 1200px) {
     min-height: 80vh;
+  }
+  @media (max-width: 900px) {
+    flex-direction: column;
   }
 }
 
@@ -19,7 +25,7 @@ padding-left: 5.5vw;
   display: flex;
   flex-direction: column;
   text-align: left;
-  width: 50%;
+  // width: 50%;
 }
 .text {
     // padding: 20px;
@@ -27,12 +33,22 @@ padding-left: 5.5vw;
       font-size: 550%;
       font-weight: 700;
       min-width: 360px;
+      @media (max-width: 900px) {
+        // min-width:10vw;
+        font-size: 4em;
+      }
 
      }
      h2 {
        font-size: 130%;
-       width: 600px;
+       max-width: 600px;
+       width: 100%;
        font-weight: 290;
+       @media (max-width: 900px) {
+        // min-width:10vw;
+        font-size: 1.8em;
+        min-width: 300px;
+      }
        strong {
          font-weight: 600;
        }
