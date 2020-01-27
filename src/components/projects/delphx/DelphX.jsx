@@ -37,13 +37,13 @@ export default function Unyte() {
                     <div id='aws' class='tool-card'><i class="devicon-python-plain"></i>
                         <h1>Python</h1>
                     </div>
-                    <div class='tool-card'><span class="iconify" data-icon="cib:kubernetes" data-inline="false"></span>
+                    <div class='tool-card'><i class="cib-kubernetes"></i>
                         <h1>Kubernetes</h1>
                     </div>
                     <div class='tool-card'><i class="devicon-docker-plain"></i>
                         <h1>Docker</h1>
                     </div>
-                    <div class='tool-card'><span class="iconify" data-icon="mdi:azure" data-inline="false"></span>
+                    <div class='tool-card'><i class="cib-azure-devops"></i>
                         <h1>Azure</h1>
                     </div>
 

@@ -39,7 +39,7 @@ enabling organized and semantic architecture. Automated product shipping using W
                     <div id='aws' class='tool-card '><i class=" devicon-amazonwebservices-plain-wordmark"></i>
                         <h1>AWS</h1>
                     </div>
-                    <div class='tool-card'><span class="iconify" data-icon="simple-icons:graphql" data-inline="false"></span>
+                    <div class='tool-card'><i class="cib-graphql"></i>
                         <h1>Graphql</h1>
                     </div>
                     <div class='tool-card'><i class="devicon-nodejs-plain"></i>
@@ -59,7 +59,7 @@ enabling organized and semantic architecture. Automated product shipping using W
                 <div class='frontend'> <div class='tool-card'><i class="devicon-react-original"></i>
                     <h1>React</h1>
                 </div>
-                    <div class='tool-card'><span class="iconify" data-icon="mdi:material-ui" data-inline="false"></span>
+                    <div class='tool-card'><i class="cib-material-design"></i>
                         <h1>Material UI</h1>
                     </div>
                     <div id='aws' class='tool-card'><i class="devicon-amazonwebservices-plain-wordmark"></i>
@@ -80,13 +80,13 @@ enabling organized and semantic architecture. Automated product shipping using W
             </div>
             <div class='subtitle'><h1>Role Breakdown</h1></div>
             <div class='roles bottom-margin-sm'>
-                <div class='tool-card'><span class="iconify" data-icon="mdi:numeric-1-circle-outline" data-inline="false"></span>
+                <div class='tool-card'><i class="cib-graphql"></i>
                     <h1>Build a Serverless GraphQL API</h1>
                 </div>
-                <div class='tool-card'><span class=" iconify" data-icon="mdi:numeric-2-circle-outline" data-inline="false"></span>
+                <div class='tool-card'><i class="devicon-react-original"></i>
                     <h1>Develop a React Web Dashboard </h1>
                 </div>
-                <div class='tool-card'><span class=" iconify" data-icon="mdi:numeric-3-circle-outline" data-inline="false"></span>
+                <div class='tool-card'><i class="cib-slack"></i>
                     <h1>Automate Shipping Process </h1>
                 </div>
             </div>

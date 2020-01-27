@@ -8,15 +8,26 @@
   align-items: center;
   justify-content: flex-start;
   justify-self: flex-start;
-
+@media (max-width:900px){
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+}
   h1 {
       font-size:6.5em;
+      @media (max-width:900px){
+    padding-left: 20px;
+    font-size: 3.5em;
+    }
     }
   h2 {
     position: relative;
     font-size:2.5em;
     padding-left: 20px;
     top:20px;
+    @media (max-width:900px){
+        font-size: 1.5em;
+    }
   }
 }
 
@@ -46,8 +57,11 @@
     width: 90vw;
     justify-content: center;
     align-items:center;
+    padding-left: 20px;
     margin-top:50px;
-    
+    @media (max-width: 900px) {
+        text-align: center;
+    }
     h1{
         font-size: 2.8em;
     }
@@ -62,17 +76,27 @@
     max-width: 1300px;
     height: 12vh;
     
+    @media (max-width: 900px) {
+        height: auto;
+    }
     #bar{
         height: 110px;
         width:10px;
         background: rgba(230, 230, 230, 0.87);
+        @media (max-width: 900px) {
+            height: 0;
+            width: 0;
+        }
     }
     #text {
         font-size: 1.4em;
         color: rgb(238, 238, 238);
         padding-left: 15px;
-        text-align: left;
+        text-align: justify;
         line-height: 1.3em;
+        @media (max-width: 900px) {
+            font-size: 1.2em;
+        }
 
     }
 }
@@ -212,6 +236,10 @@
     color: rgb(136, 196, 149);
     width:90vw;
     max-width: 1300px;
+    @media (max-width: 900px) {
+        flex-direction: column;
+        align-items: center;
+      }
     .tool-card {
  
         height: 200px;
@@ -220,7 +248,10 @@
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-       
+        @media (max-width: 900px) {
+            font-size:70px;
+            width: 100%;
+          }
         font-size: 120px;
         #cognito {
             color: rgb(185,112,138);
@@ -261,6 +292,10 @@
     .iconify {
         position: relative;
         left:35%;
+        @media(max-width:900px){
+            position: relative;
+            left: 40%;
+        }
      }
      h1 {
          font-weight: 250;
@@ -283,6 +318,11 @@ display: flex;
 align-content: center;
 justify-content: center;
 
+@media (max-width: 900px) {
+    flex-direction: column-reverse;
+    width:95%;
+    height: auto;
+}
 
 .left-text {
 margin: 10px;
@@ -292,10 +332,18 @@ text-align: left;
 color:rgb(206, 206, 206);
 font-size: 1.3em;
 text-align: justify;
+@media (max-width: 900px) {
+   
+    width:95%;
+}
 }
 .right-image {
 margin:10px;
 width:100%;
+@media (max-width: 900px) {
+   
+    width:auto;
+}
 img{
     width: 100%;
 }
@@ -312,6 +360,11 @@ img{
     text-align: left;
     cursor: pointer;
     user-select: none;
+    @media (max-width: 900px) {
+        margin-right: 15px;
+        font-size: 1.2em;
+
+    }
 }
 
 .active {
@@ -320,6 +373,10 @@ img{
     text-align: left;
     margin-right: 45px;
     user-select: none;
+    @media (max-width: 900px) {
+        margin-right: 15px;
+        font-size: 1.2em;
+    }
 }
 
 .bottom-margin-30 {

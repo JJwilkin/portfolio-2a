@@ -12,15 +12,27 @@
     align-items: center;
     justify-content: center;
     justify-self: flex-start;
+    @media (max-width:900px){
+      flex-direction: column;
+      text-align: left;
+      align-items: flex-start;
+  }
   
     h1 {
         font-size:6.5em;
+        @media (max-width:900px){
+          padding-left: 20px;
+          font-size: 3em;
+          }
       }
     h2 {
       position: relative;
       font-size:2.5em;
       padding-left: 20px;
       top:20px;
+      @media (max-width:900px){
+        font-size: 1.5em;
+    }
     }
   }
 .delphx-picture {

@@ -16,7 +16,7 @@ export default function Serverless() {
                 <div class='tool-card'><span id="node"class="iconify" data-icon="simple-icons:node-dot-js" data-inline="false"></span>
                     <h1 id="node">Developed new API in Node</h1>
                 </div>
-                <div class='tool-card'><span id="graphql" class="iconify" data-icon="cib:graphql" data-inline="false"></span>
+                <div class='tool-card'><i id="graphql" class="cib-graphql"></i>
                     <h1 id="graphql">Used GraphQL for efficient, highly customizeable queries</h1>
                 </div>
                 <div class='tool-card'><span class="iconify" data-icon="logos:serverless" data-inline="false"></span>
