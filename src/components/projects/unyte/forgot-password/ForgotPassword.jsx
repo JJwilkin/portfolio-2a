@@ -9,8 +9,8 @@ export default function Password() {
                 <div id='text'>As part of designing and developing the user experience, I was tasked with creating the Forgot Password Sequence. This included business logic, API development, and front-end integration. With our user lists stored on AWS Cognito User Pools, I used AWS Simple Email Service (SES) to send personalized recovery emails and called the Cognito API to securely reset users passwords. </div>
             </div>
 
-            <div class='padding-top white-text full-width flex-align-center'>
-                <h2>Project Breakdown</h2>
+            <div class="subtitle">
+                <h1>Project Breakdown</h1>
             </div>
             <div class='roles bottom-margin-sm'>
                 <div class='tool-card'><span class="iconify" data-icon="logos:material-ui" data-inline="false"></span>

@@ -9,8 +9,8 @@ return (
                 <div id='text'>The prior shipping and logistics process involved a lot of manual communication between the shipment team and customer support. This created a bottle-kneck on scalability and increased the possibility of missed shipments due to miscommunication. The shipping notification automation reduced processing time by 20% as well as greatly reduced the potential for human error.  </div>
             </div>
 
-            <div class='padding-top white-text full-width flex-align-center'>
-                <h2>Project Breakdown</h2>
+            <div class="subtitle">
+                <h1>Project Breakdown</h1>
             </div>
             <div class='roles bottom-margin-sm'>
                 <div class='tool-card'><span  class="iconify" data-icon="logos:webhooks" data-inline="false"></span>

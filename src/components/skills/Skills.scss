@@ -93,7 +93,9 @@ height: 80vh;
     // background: white;
     height: 80vh;
     width: 70vw;
-  
+  @media (max-width:900px) {
+      width:110%;
+  }
 }
 #skills-main {
     height: 45vh;

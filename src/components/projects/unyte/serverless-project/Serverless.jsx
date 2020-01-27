@@ -9,8 +9,12 @@ export default function Serverless() {
                 <div id='text'>Being a small startup, the overhead costs and maintenance required to buy and run a server made serverless architechture the only feasible solution. In order to retrieve and store data for the web dashboard a fast, low maintenance, and iterable API had to be developed. The Node based API was created using cutting edge tech like Graphql to optimize performance and was hosted on AWS for reliabilitys and scaling.     </div>
             </div>
 
-            <div class='padding-top white-text full-width flex-align-center'>
-                <h2>Project Breakdown</h2>
+            {/* <div class='padding-top white-text full-width flex-align-center'>
+                <h2 >Project Breakdown</h2>
+            </div> */}
+
+            <div class="subtitle">
+                <h1>Project Breakdown</h1>
             </div>
             <div class='roles bottom-margin-sm'>
                 <div class='tool-card'><span id="node"class="iconify" data-icon="simple-icons:node-dot-js" data-inline="false"></span>
