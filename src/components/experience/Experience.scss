@@ -4,7 +4,7 @@
     // min-width: 450px;
    width: 550px;
     @media (max-width: 900px) {
-        height: 30vh;
+        height: auto;
         width:100%;        
         padding: 0;
     }
@@ -39,6 +39,7 @@
     @media (max-width: 900px) {
         flex-direction: column-reverse;
         height: 110vh;
+        margin-top: 100px;
     }
 
     
@@ -138,3 +139,7 @@
     border:none;
 }
 
+#full-stack {
+    font-size: 2rem;
+    font-weight: 600;
+}

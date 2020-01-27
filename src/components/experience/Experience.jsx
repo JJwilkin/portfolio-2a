@@ -71,7 +71,7 @@ export default function Skills ()  {
         
         <div class="entry">
             <div class="caption">
-                <h1>Full Stack Developer</h1>
+                <h1 id='full-stack'>Full Stack Developer</h1>
                 <h3>Unyte Health Inc</h3>
                 <p>Worked with a small team to develop a React/Redux web dashboard for therapists to manage clients and track progress. Developed a new GraphQL API in Node hosted on AWS/Serverless used to manage client data and optimize performance. Used Sequelize models for schema design on a Postgres database enabling organized and semantic architecture. Automated product shipping using Webhook triggered notifications.</p>
             <div class="learn">
