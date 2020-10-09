@@ -71,7 +71,7 @@ export default function Skills ()  {
             <div class="caption">
                 <h1 id='full-stack'>Software Developer</h1>
                 <h3>D2L</h3>
-                <p>Worked with a small team to develop a React/Redux web dashboard for therapists to manage clients and track progress. Developed a new GraphQL API in Node hosted on AWS/Serverless used to manage client data and optimize performance. Used Sequelize models for schema design on a Postgres database enabling organized and semantic architecture. Automated product shipping using Webhook triggered notifications.</p>
+                <p>Currently working as a Software Developer @ D2L!</p>
             <div class="learn">
                 <Link style={{ textDecoration: 'none'}} to='/unyte'>
                 <button class="more">
@@ -105,7 +105,7 @@ export default function Skills ()  {
             <div class="caption">
                 <h1 id='full-stack'>ChowTime</h1>
                 <h3>Scan Food, Get Recipes</h3>
-                <p>Worked with a small team to develop a React/Redux web dashboard for therapists to manage clients and track progress. Developed a new GraphQL API in Node hosted on AWS/Serverless used to manage client data and optimize performance. Used Sequelize models for schema design on a Postgres database enabling organized and semantic architecture. Automated product shipping using Webhook triggered notifications.</p>
+                <p>Developed a React Native mobile app that scans food in a user's fridge to suggest healthy recipes. Trained an object detection model using Tensorflow by collecting, labelling, and preprocessing images of common grocery and produce items. Applied natural language processing (NLP) and optical character recognition (OCR) to extract and interpret text from labelled/packaged food items.</p>
             <div class="learn">
                 <Link style={{ textDecoration: 'none'}} to='/unyte'>
                 <button class="more">
@@ -139,7 +139,7 @@ export default function Skills ()  {
             <div class="caption">
                 <h1 id='full-stack'>Software Developer</h1>
                 <h3>BTNX Inc</h3>
-                <p>Worked with a small team to develop a React/Redux web dashboard for therapists to manage clients and track progress. Developed a new GraphQL API in Node hosted on AWS/Serverless used to manage client data and optimize performance. Used Sequelize models for schema design on a Postgres database enabling organized and semantic architecture. Automated product shipping using Webhook triggered notifications.</p>
+                <p>Designed, trained, and implemented a convolutional neural network using Tensorflow to automatically classify images of drug tests as positive/negative. Preprocessed images using OpenCV and Python for use in the machine learning model. Developed a cross-platform mobile app with Xamarin and .NET used by over 500 customers to capture and log COVID-19 tests, automate drug testing, and simplify form submission.</p>
             <div class="learn">
                 <Link style={{ textDecoration: 'none'}} to='/unyte'>
                 <button class="more">
