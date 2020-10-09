@@ -82,7 +82,7 @@ export default function Skills ()  {
             </div>
             <div class="card-image">
             <Link style={{ textDecoration: 'none'}} to='/unyte'>
-                <div id='unyte' class='card'></div>
+                <div id='d2l' class='card'></div>
                 </Link>
                 {/* <div class="image">
                     
@@ -116,7 +116,7 @@ export default function Skills ()  {
             </div>
             <div class="card-image">
             <Link style={{ textDecoration: 'none'}} to='/unyte'>
-                <div id='unyte' class='card'></div>
+                <div id='chowtime' class='card'></div>
                 </Link>
                 {/* <div class="image">
                     
@@ -150,7 +150,7 @@ export default function Skills ()  {
             </div>
             <div class="card-image">
             <Link style={{ textDecoration: 'none'}} to='/unyte'>
-                <div id='unyte' class='card'></div>
+                <div id='btnx' class='card'></div>
                 </Link>
                 {/* <div class="image">
                     
