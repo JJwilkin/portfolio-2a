@@ -26,6 +26,9 @@ function App() {
             <Route  exact  path="/skills" component={HomePage} />
             <Route  exact  path="/experience" component={HomePage} />
             <Route  exact  path="/contact" component={HomePage} />
+            <Route path="/d2l" component={Unyte} />
+            <Route path="/btnx" component={Unyte} />
+            <Route path="/chowtime" component={Unyte} />
             <Route path="/unyte" component={Unyte} /> 
             <Route path="/delphx" component={DelphX} /> 
         </Switch>

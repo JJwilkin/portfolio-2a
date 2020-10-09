@@ -67,8 +67,108 @@ export default function Skills ()  {
              <div class='main-subtitle'>
         <h1>Case Studies</h1>
         </div>
+        <div class="entry">
+            <div class="caption">
+                <h1 id='full-stack'>Software Developer</h1>
+                <h3>D2L</h3>
+                <p>Worked with a small team to develop a React/Redux web dashboard for therapists to manage clients and track progress. Developed a new GraphQL API in Node hosted on AWS/Serverless used to manage client data and optimize performance. Used Sequelize models for schema design on a Postgres database enabling organized and semantic architecture. Automated product shipping using Webhook triggered notifications.</p>
+            <div class="learn">
+                <Link style={{ textDecoration: 'none'}} to='/unyte'>
+                <button class="more">
+                Learn More
+                </button>
+                </Link>
+            </div>
+            </div>
+            <div class="card-image">
+            <Link style={{ textDecoration: 'none'}} to='/unyte'>
+                <div id='unyte' class='card'></div>
+                </Link>
+                {/* <div class="image">
+                    
+                    <div class='tools'>
+                    <div class='tool list-item'>
+                    Node
+                    </div>
+                    <div class='tool list-item'>
+                    React
+                    </div>
+                    <div class='tool list-item'>
+                    AWS
+                    </div>
+                    </div>
+                </div> */}
+            </div>
+        </div>
 
-        
+        <div class="entry">
+            <div class="caption">
+                <h1 id='full-stack'>ChowTime</h1>
+                <h3>Scan Food, Get Recipes</h3>
+                <p>Worked with a small team to develop a React/Redux web dashboard for therapists to manage clients and track progress. Developed a new GraphQL API in Node hosted on AWS/Serverless used to manage client data and optimize performance. Used Sequelize models for schema design on a Postgres database enabling organized and semantic architecture. Automated product shipping using Webhook triggered notifications.</p>
+            <div class="learn">
+                <Link style={{ textDecoration: 'none'}} to='/unyte'>
+                <button class="more">
+                Learn More
+                </button>
+                </Link>
+            </div>
+            </div>
+            <div class="card-image">
+            <Link style={{ textDecoration: 'none'}} to='/unyte'>
+                <div id='unyte' class='card'></div>
+                </Link>
+                {/* <div class="image">
+                    
+                    <div class='tools'>
+                    <div class='tool list-item'>
+                    Node
+                    </div>
+                    <div class='tool list-item'>
+                    React
+                    </div>
+                    <div class='tool list-item'>
+                    AWS
+                    </div>
+                    </div>
+                </div> */}
+            </div>
+        </div>
+
+        <div class="entry">
+            <div class="caption">
+                <h1 id='full-stack'>Software Developer</h1>
+                <h3>BTNX Inc</h3>
+                <p>Worked with a small team to develop a React/Redux web dashboard for therapists to manage clients and track progress. Developed a new GraphQL API in Node hosted on AWS/Serverless used to manage client data and optimize performance. Used Sequelize models for schema design on a Postgres database enabling organized and semantic architecture. Automated product shipping using Webhook triggered notifications.</p>
+            <div class="learn">
+                <Link style={{ textDecoration: 'none'}} to='/unyte'>
+                <button class="more">
+                Learn More
+                </button>
+                </Link>
+            </div>
+            </div>
+            <div class="card-image">
+            <Link style={{ textDecoration: 'none'}} to='/unyte'>
+                <div id='unyte' class='card'></div>
+                </Link>
+                {/* <div class="image">
+                    
+                    <div class='tools'>
+                    <div class='tool list-item'>
+                    Node
+                    </div>
+                    <div class='tool list-item'>
+                    React
+                    </div>
+                    <div class='tool list-item'>
+                    AWS
+                    </div>
+                    </div>
+                </div> */}
+            </div>
+        </div>       
+
         <div class="entry">
             <div class="caption">
                 <h1 id='full-stack'>Full Stack Developer</h1>
