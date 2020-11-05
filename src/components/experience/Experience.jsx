@@ -107,7 +107,7 @@ export default function Skills ()  {
                 <h3>Scan Food, Get Recipes</h3>
                 <p>Developed a React Native mobile app that scans food in a user's fridge to suggest healthy recipes. Trained an object detection model using Tensorflow by collecting, labelling, and preprocessing images of common grocery and produce items. Applied natural language processing (NLP) and optical character recognition (OCR) to extract and interpret text from labelled/packaged food items.</p>
             <div class="learn">
-                <a style={{ textDecoration: 'none'}} href='https://linktr.ee/JJWilkin'>
+                <a style={{ textDecoration: 'none'}} target="_blank" href='https://linktr.ee/JJWilkin'>
                 <button class="more">
                 Try it Now!
                 </button>
@@ -115,7 +115,7 @@ export default function Skills ()  {
             </div>
             </div>
             <div class="card-image">
-            <a style={{ textDecoration: 'none'}} href='https://linktr.ee/JJWilkin'>
+            <a style={{ textDecoration: 'none'}} target="_blank" href='https://linktr.ee/JJWilkin'>
                 <div id='chowtime' class='card'></div>
                 </a>
                 {/* <div class="image">
