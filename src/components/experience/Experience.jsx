@@ -71,7 +71,7 @@ export default function Skills ()  {
             <div class="caption">
                 <h1 id='full-stack'>Software Developer</h1>
                 <h3>D2L</h3>
-                <p>Currently working as a Software Developer @ D2L!</p>
+                <p>Currently working as a Software Developer @ D2L</p>
             <div class="learn">
                 {/* <Link style={{ textDecoration: 'none'}} to='/unyte'> */}
                 {/* <button class="more">
