@@ -75,7 +75,7 @@ export default function Skills ()  {
             <div class="learn">
                 {/* <Link style={{ textDecoration: 'none'}} to='/unyte'> */}
                 <button class="more">
-                Learn More
+                Coming Soon!
                 </button>
                 {/* </Link> */}
             </div>
@@ -109,7 +109,7 @@ export default function Skills ()  {
             <div class="learn">
                 {/* <Link style={{ textDecoration: 'none'}} to='/unyte'> */}
                 <button class="more">
-                Learn More
+                Coming Soon!
                 </button>
                 {/* </Link> */}
             </div>
@@ -143,7 +143,7 @@ export default function Skills ()  {
             <div class="learn">
                 {/* <Link style={{ textDecoration: 'none'}} to='/unyte'> */}
                 <button class="more">
-                Learn More
+                Coming Soon!
                 </button>
                 {/* </Link> */}
             </div>
