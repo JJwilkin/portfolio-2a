@@ -137,7 +137,7 @@ export default function Skills ()  {
 
         <div class="entry">
             <div class="caption">
-                <h1 id='full-stack'>Software Developer</h1>
+                <h1 id='full-stack'>Software/ML Developer</h1>
                 <h3>BTNX Inc</h3>
                 <p>Designed, trained, and implemented a convolutional neural network using Tensorflow to automatically classify images of drug tests as positive/negative. Preprocessed images using OpenCV and Python for use in the machine learning model. Developed a cross-platform mobile app with Xamarin and .NET used by over 500 customers to capture and log COVID-19 tests, automate drug testing, and simplify form submission.</p>
             <div class="learn">
