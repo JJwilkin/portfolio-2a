@@ -74,9 +74,9 @@ export default function Skills ()  {
                 <p>Currently working as a Software Developer @ D2L!</p>
             <div class="learn">
                 {/* <Link style={{ textDecoration: 'none'}} to='/unyte'> */}
-                <button class="more">
+                {/* <button class="more">
                 Coming Soon!
-                </button>
+                </button> */}
                 {/* </Link> */}
             </div>
             </div>
