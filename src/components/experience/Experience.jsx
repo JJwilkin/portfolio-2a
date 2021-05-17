@@ -71,7 +71,11 @@ export default function Skills ()  {
             <div class="caption">
                 <h1 id='full-stack'>Software Developer</h1>
                 <h3>D2L</h3>
-                <p>Currently working as a Software Developer @ D2L</p>
+                <p>Developed a Python script and Flask API to modernize school grading by converting images of paper rubrics
+to editable-digital versions. Used OpenCV to perform image alignment, contour mapping, feature extraction;
+and OCR to extract content and text from the image.Created an npm module to be used across the entire D2L organization to facilitate multipart-mixed file uploads
+and reduces lines of boilerplate code required by 85%. Created automated test cases with Jest.Built a Mongo, Express, React, Node (MERN) application to automate importing classes/material from Google
+Classroom to D2L. To be piloted by over 75,000 teachers from the New York City Dept. of Education in the fall.</p>
             <div class="learn">
                 {/* <Link style={{ textDecoration: 'none'}} to='/unyte'> */}
                 {/* <button class="more">
@@ -84,30 +88,38 @@ export default function Skills ()  {
             {/* <Link style={{ textDecoration: 'none'}} to='/unyte'> */}
                 <div id='d2l' class='card'></div>
                 {/* </Link> */}
-                {/* <div class="image">
-                    
-                    <div class='tools'>
-                    <div class='tool list-item'>
-                    Node
-                    </div>
-                    <div class='tool list-item'>
-                    React
-                    </div>
-                    <div class='tool list-item'>
-                    AWS
-                    </div>
-                    </div>
-                </div> */}
+               
             </div>
         </div>
-
         <div class="entry">
             <div class="caption">
-                <h1 id='full-stack'>ChowTime</h1>
+                <h1 id='full-stack'>Vaccine Notifications</h1>
+                <h3>Personalized Vaccine Alerts</h3>
+                <p>Receive vaccine notifications relevant to you! Receive push notifications through the app or browser whenever vaccines appointments are available in your area. Developed a React Native app/website, endorsed by UofT and UHN, that provides COVID-19 vaccine
+notifications based on the user’s age group and postal code, used by over 10,000 users across Canada.</p>
+                <div class="learn">
+                    <a style={{ textDecoration: 'none'}} target="_blank" href='https://vaccinenotifications.org'>
+                        <button class="more">
+                        Try it Now!
+                        </button>
+                    </a>
+            </div>
+            </div>
+            <div class="card-image">
+
+            <a style={{ textDecoration: 'none'}} target="_blank" href='https://vaccinenotifications.org'>
+                <div id='vaxnotifs' class='card'></div>
+
+               </a>
+            </div>
+        </div>
+        <div class="entry">
+            <div class="caption">
+                <h1 id='full-stack'>QuickDish</h1>
                 <h3>Scan Food, Get Recipes</h3>
                 <p>Developed a React Native mobile app that scans food in a user's fridge to suggest healthy recipes. Trained an object detection model using Tensorflow by collecting, labelling, and preprocessing images of common grocery and produce items. Applied natural language processing (NLP) and optical character recognition (OCR) to extract and interpret text from labelled/packaged food items.</p>
             <div class="learn">
-                <a style={{ textDecoration: 'none'}} target="_blank" href='https://linktr.ee/JJWilkin'>
+                <a style={{ textDecoration: 'none'}} target="_blank" href='https://rebrand.ly/QuickDishAndroid'>
                 <button class="more">
                 Try it Now!
                 </button>
@@ -115,7 +127,7 @@ export default function Skills ()  {
             </div>
             </div>
             <div class="card-image">
-            <a style={{ textDecoration: 'none'}} target="_blank" href='https://linktr.ee/JJWilkin'>
+            <a style={{ textDecoration: 'none'}} target="_blank" href='https://rebrand.ly/QuickDishAndroid'>
                 <div id='chowtime' class='card'></div>
                 </a>
                 {/* <div class="image">

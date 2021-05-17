@@ -94,7 +94,7 @@ export default function Contact ()  {
         </div>
         <div class='contact-panel'>
           <h3>647-219-4678</h3>
-          <h3>joshjeffreywilkinson@gmail.com</h3>
+          <h3>jjwilkin@uwaterloo.ca</h3>
           <h3>linkedin.com/in/jjwilkin</h3>
         </div>
         </div>

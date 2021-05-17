@@ -41,7 +41,12 @@ export default function Navbar () {
 			</li>
 			<li class="nav-item">
 			
-				<a id='resume' class="nav-link" href="https://drive.google.com/file/d/1l_Cy453kkkUurP-N2OeXj3zoI_DL6rDy/view?usp=sharing" target="_blank">Resume</a>
+				<a id='resume' class="nav-link" href="https://drive.google.com/file/d/1xcc_yE2usF4Ce0lZonWA04Sge5M1jkAi/view?usp=sharing" target="_blank">Resume</a>
+			
+			</li>
+			<li class="nav-item">
+			
+				<a id='photography' class="nav-link" href="https://www.jxshooter.com" target="_blank">Photography</a>
 				
 			</li>
 		</ul>
