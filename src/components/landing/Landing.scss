@@ -35,7 +35,7 @@ padding-left: 5.5vw;
       min-width: 360px;
       @media (max-width: 900px) {
         // min-width:10vw;
-        font-size: 4em;
+        font-size: 3em;
       }
 
      }
@@ -46,11 +46,16 @@ padding-left: 5.5vw;
        font-weight: 290;
        @media (max-width: 900px) {
         // min-width:10vw;
-        font-size: 1.8em;
+        font-size: 1.3em;
         min-width: 300px;
       }
        strong {
          font-weight: 600;
        }
      }
+}
+#case-studies {
+  @media(max-width: 900px) {
+    margin-bottom: 200px;
+  }
 }

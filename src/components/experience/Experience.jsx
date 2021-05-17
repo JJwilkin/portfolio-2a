@@ -64,8 +64,8 @@ export default function Skills ()  {
             
             
             </Paper></ThemeProvider> */}
-             <div class='main-subtitle'>
-        <h1>Case Studies</h1>
+        <div id="case-studies" class='main-subtitle'>
+            <h1>Case Studies</h1>
         </div>
         <div class="entry">
             <div class="caption">
