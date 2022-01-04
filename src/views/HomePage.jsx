@@ -5,6 +5,7 @@ import Skills from '../components/skills/Skills'
 import Experience from '../components/experience/Experience'
 import Contact from '../components/contact/Contact'
 import { useLocation } from 'react-router-dom'
+import Fade from "react-reveal/Fade";
 
 
 // let path = (window.location.pathname).substring(1);
@@ -45,14 +46,16 @@ function determineSection (section) {
     <div ref={landing}></div> 
     <Landing />
     
-    <div ref={skills}></div>
-    <Skills/>
+    {/* <div ref={skills}></div>
+    <Skills/> */}
 
     <div ref={experience}></div>
     <Experience/>
   
     <div ref={contact}></div>
+    <Fade opposite>
     <Contact/> 
+    </Fade>
     </>
     )
 }

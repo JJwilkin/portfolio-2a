@@ -6,6 +6,7 @@ import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import { style } from '@material-ui/system';
 import { StylesContext } from '@material-ui/styles';
+import Fade from "react-reveal/Fade";
 
 // const theme = createMuiTheme({
 //   overrides: {
@@ -57,6 +58,7 @@ import { StylesContext } from '@material-ui/styles';
 export default function Skills ()  {
     // const classes = useStyles();
     return (
+        // <Fade opposite></Fade>
         <div id="skills" class=" section ">
          <div class='main-subtitle'>
             <h1>Skills</h1>

@@ -24,11 +24,11 @@ export default function Navbar () {
 				<a id='about' class="nav-link" href="#" onclick='setActiveTab("about")'>About</a>
 				</Link>
 			</li>
-			<li class="nav-item">
+			{/* <li class="nav-item">
 			<Link to={'/skills'}>
 				<a class="nav-link" href="#skills">Skills</a>
 				</Link>
-			</li>
+			</li> */}
 			<li class="nav-item">
 				<Link to={'/experience'}>
 				<a class="nav-link" id='blue' href="#experience">Experience</a>
@@ -41,7 +41,7 @@ export default function Navbar () {
 			</li>
 			<li class="nav-item">
 			
-				<a id='resume' class="nav-link" href="https://drive.google.com/file/d/1xcc_yE2usF4Ce0lZonWA04Sge5M1jkAi/view?usp=sharing" target="_blank">Resume</a>
+				<a id='resume' class="nav-link" href="https://drive.google.com/file/d/1wA7SduZ1navuJUiZgM2stcOFz-TtQVal/view?usp=sharing" target="_blank">Resume</a>
 			
 			</li>
 			<li class="nav-item">

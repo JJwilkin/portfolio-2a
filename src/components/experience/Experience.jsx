@@ -6,6 +6,8 @@ import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import { style } from '@material-ui/system';
 import { StylesContext } from '@material-ui/styles';
 import { Link } from 'react-router-dom';
+import Fade from "react-reveal/Fade";
+
 
 const theme = createMuiTheme({
   overrides: {
@@ -65,10 +67,45 @@ export default function Skills ()  {
             
             </Paper></ThemeProvider> */}
         <div id="case-studies" class='main-subtitle'>
-            <h1>Case Studies</h1>
+            <h1>Work Experience</h1>
+        </div>
+        
+        <div class="entry">
+  
+            <div class="caption">
+            <Fade opposite>
+                <h1 id='full-stack'>Data Science/Deep Learning</h1>
+                <h3>Nuralogix</h3>
+                <p>Worked apart of a small research team developing CNN technology to predict blood presure from a face. Predicted blood pressure to within 5% from a video of the face by developing two unique deep learning pipelines with Pytorch.
+Learned correlation between blood pressure and changes in the complexion of the face over time by implementing a 3D CNN.
+Optimized video encoding/decoding python scripts by 83% using multi-processing, shared memory pools, and vectorization.
+Developed a custom 3D Triangular CNN to predict blood pressure based on Delaunay Triangulation.
+Implemented custom deep learning architecture from scratch including convolution, pooling, and
+backpropagation using OpenCV, Numpy, and Pytorch.</p>
+            <div class="learn">
+                {/* <Link style={{ textDecoration: 'none'}} to='/unyte'> */}
+                {/* <button class="more">
+                Coming Soon!
+                </button> */}
+                {/* </Link> */}
+            </div>
+            </Fade>
+            </div>
+            
+            <div class="card-image">
+            
+            {/* <Link style={{ textDecoration: 'none'}} to='/unyte'> */}
+                <div id='nuralogix' class='card'></div>
+                {/* </Link> */}
+               
+            </div>
+         
+
         </div>
         <div class="entry">
             <div class="caption">
+            <Fade opposite>
+
                 <h1 id='full-stack'>Software Developer</h1>
                 <h3>D2L</h3>
                 <p>Developed a Python script and Flask API to modernize school grading by converting images of paper rubrics
@@ -83,6 +120,7 @@ Classroom to D2L. To be piloted by over 75,000 teachers from the New York City D
                 </button> */}
                 {/* </Link> */}
             </div>
+            </Fade>
             </div>
             <div class="card-image">
             {/* <Link style={{ textDecoration: 'none'}} to='/unyte'> */}
@@ -93,6 +131,8 @@ Classroom to D2L. To be piloted by over 75,000 teachers from the New York City D
         </div>
         <div class="entry">
             <div class="caption">
+            <Fade opposite>
+
                 <h1 id='full-stack'>Vaccine Notifications</h1>
                 <h3>Personalized Vaccine Alerts</h3>
                 <p>Receive vaccine notifications relevant to you! Receive push notifications through the app or browser whenever vaccines appointments are available in your area. Developed a React Native app/website, endorsed by UofT and UHN, that provides COVID-19 vaccine
@@ -104,6 +144,7 @@ notifications based on the user’s age group and postal code, used by over 10,0
                         </button>
                     </a>
             </div>
+            </Fade>
             </div>
             <div class="card-image">
 
@@ -115,6 +156,8 @@ notifications based on the user’s age group and postal code, used by over 10,0
         </div>
         <div class="entry">
             <div class="caption">
+            <Fade opposite>
+
                 <h1 id='full-stack'>QuickDish</h1>
                 <h3>Scan Food, Get Recipes</h3>
                 <p>Developed a React Native mobile app that scans food in a user's fridge to suggest healthy recipes. Trained an object detection model using Tensorflow by collecting, labelling, and preprocessing images of common grocery and produce items. Applied natural language processing (NLP) and optical character recognition (OCR) to extract and interpret text from labelled/packaged food items.</p>
@@ -125,6 +168,7 @@ notifications based on the user’s age group and postal code, used by over 10,0
                 </button>
                 </a>
             </div>
+            </Fade>
             </div>
             <div class="card-image">
             <a style={{ textDecoration: 'none'}} target="_blank" href='https://rebrand.ly/QuickDishAndroid'>
@@ -149,6 +193,8 @@ notifications based on the user’s age group and postal code, used by over 10,0
 
         <div class="entry">
             <div class="caption">
+            <Fade opposite>
+
                 <h1 id='full-stack'>Software/ML Developer</h1>
                 <h3>BTNX Inc</h3>
                 <p>Designed, trained, and implemented a convolutional neural network using Tensorflow to automatically classify images of drug tests as positive/negative. Preprocessed images using OpenCV and Python for use in the machine learning model. Developed a cross-platform mobile app with Xamarin and .NET used by over 500 customers to capture and log COVID-19 tests, automate drug testing, and simplify form submission.</p>
@@ -159,6 +205,7 @@ notifications based on the user’s age group and postal code, used by over 10,0
                 </button>
                 {/* </Link> */}
             </div>
+            </Fade>
             </div>
             <div class="card-image">
             {/* <Link style={{ textDecoration: 'none'}} to='/unyte'> */}
@@ -183,6 +230,8 @@ notifications based on the user’s age group and postal code, used by over 10,0
 
         <div class="entry">
             <div class="caption">
+            <Fade opposite>
+
                 <h1 id='full-stack'>Full Stack Developer</h1>
                 <h3>Unyte Health Inc</h3>
                 <p>Worked with a small team to develop a React/Redux web dashboard for therapists to manage clients and track progress. Developed a new GraphQL API in Node hosted on AWS/Serverless used to manage client data and optimize performance. Used Sequelize models for schema design on a Postgres database enabling organized and semantic architecture. Automated product shipping using Webhook triggered notifications.</p>
@@ -193,6 +242,7 @@ notifications based on the user’s age group and postal code, used by over 10,0
                 </button>
                 </Link>
             </div>
+            </Fade>
             </div>
             <div class="card-image">
             <Link style={{ textDecoration: 'none'}} to='/unyte'>
@@ -217,6 +267,8 @@ notifications based on the user’s age group and postal code, used by over 10,0
 
         <div class="entry">
             <div class="caption">
+            <Fade opposite>
+
                 <h1>QA Developer</h1>
                 <h3>DelphX Inc</h3>
 
@@ -228,6 +280,7 @@ notifications based on the user’s age group and postal code, used by over 10,0
                 </button>
                 </Link>
             </div>
+            </Fade>
             </div>
             <div class="card-image">
             <Link style={{ textDecoration: 'none'}} to='/delphx'>
