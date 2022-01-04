@@ -41,7 +41,7 @@ export default function Navbar () {
 			</li>
 			<li class="nav-item">
 			
-				<a id='resume' class="nav-link" href="https://drive.google.com/file/d/1XOMyr5Ke7tY47Cx8MoV5nVHjVfaUWwnY/view?usp=sharing" target="_blank">Resume</a>
+				<a id='resume' class="nav-link" href="https://drive.google.com/file/d/1xx6qmtOzp9bdxO8DCd2WrNRBGPqs3DIc/view?usp=sharing" target="_blank">Resume</a>
 			
 			</li>
 			<li class="nav-item">
